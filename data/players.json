@@ -1,0 +1,106 @@
+[
+  {
+    "rank": 1,
+    "name": "Polo",
+    "totalGoals": 29,
+    "matchesPlayed": 17,
+    "goalsPerMatch": 1.71,
+    "goalPercentage": 24.37
+  },
+  {
+    "rank": 2,
+    "name": "Matthieu Z.",
+    "totalGoals": 19,
+    "matchesPlayed": 14,
+    "goalsPerMatch": 1.36,
+    "goalPercentage": 15.97
+  },
+  {
+    "rank": 3,
+    "name": "Nico",
+    "totalGoals": 14,
+    "matchesPlayed": 14,
+    "goalsPerMatch": 1.0,
+    "goalPercentage": 11.76
+  },
+  {
+    "rank": 4,
+    "name": "Mathieu L.",
+    "totalGoals": 11,
+    "matchesPlayed": 11,
+    "goalsPerMatch": 1.0,
+    "goalPercentage": 9.24
+  },
+  {
+    "rank": 5,
+    "name": "Quentin",
+    "totalGoals": 10,
+    "matchesPlayed": 17,
+    "goalsPerMatch": 0.59,
+    "goalPercentage": 8.4
+  },
+  {
+    "rank": 6,
+    "name": "Issac",
+    "totalGoals": 9,
+    "matchesPlayed": 7,
+    "goalsPerMatch": 1.29,
+    "goalPercentage": 7.56
+  },
+  {
+    "rank": 7,
+    "name": "Mael",
+    "totalGoals": 8,
+    "matchesPlayed": 12,
+    "goalsPerMatch": 0.67,
+    "goalPercentage": 6.72
+  },
+  {
+    "rank": 8,
+    "name": "Antonin",
+    "totalGoals": 8,
+    "matchesPlayed": 9,
+    "goalsPerMatch": 0.89,
+    "goalPercentage": 6.72
+  },
+  {
+    "rank": 9,
+    "name": "Vincent",
+    "totalGoals": 5,
+    "matchesPlayed": 10,
+    "goalsPerMatch": 0.5,
+    "goalPercentage": 4.2
+  },
+  {
+    "rank": 10,
+    "name": "Yanis",
+    "totalGoals": 3,
+    "matchesPlayed": 11,
+    "goalsPerMatch": 0.27,
+    "goalPercentage": 2.52
+  },
+  {
+    "rank": 11,
+    "name": "Flo",
+    "totalGoals": 2,
+    "matchesPlayed": 6,
+    "goalsPerMatch": 0.33,
+    "goalPercentage": 1.68
+  },
+  {
+    "rank": 12,
+    "name": "Valum",
+    "totalGoals": 1,
+    "matchesPlayed": 12,
+    "goalsPerMatch": 0.08,
+    "goalPercentage": 0.84
+  },
+  {
+    "rank": 13,
+    "name": "Antho",
+    "totalGoals": 0,
+    "matchesPlayed": 12,
+    "goalsPerMatch": 0.0,
+    "goalPercentage": 0.0
+  }
+]
