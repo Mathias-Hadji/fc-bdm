@@ -147,10 +147,6 @@ const PlayerRanking: React.FC = () => {
                                 <td className="md:p-1">
                                     <div className="flex flex-col items-center">
                                         {player.totalGoals}
-                                        <span className="text-xs">
-                                            ({player.goalPercentage.toFixed(2)}
-                                            %)
-                                        </span>
                                     </div>
                                 </td>
                                 <td className="md:p-2">
