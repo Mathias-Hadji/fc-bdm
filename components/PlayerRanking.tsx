@@ -133,20 +133,22 @@ const PlayerRanking: React.FC = () => {
                                 key={player.rank}
                                 className="border-t border-gray-700 text-center hover:bg-gray-700 transition"
                             >
-                                <td className="p-2 flex justify-center items-center gap-1 whitespace-nowrap">
+                                <td className="font-bold p-2 py-3 md:py-2 flex justify-center items-center gap-1 whitespace-nowrap">
                                     <span>{getMedal(player.rank)}</span>
                                     <span>{player.rank}</span>
                                 </td>
 
                                 <td
-                                    className="p-2 font-bold text-slate-300 cursor-pointer hover:underline whitespace-nowrap"
+                                    className="px-3 py-3 md:py-2 font-bold text-slate-300 cursor-pointer hover:underline whitespace-nowrap"
                                     onClick={() => setSelectedPlayer(player)}
                                 >
                                     {player.name}
                                 </td>
-                                <td className="md:p-2 py-1">
-                                    {player.totalGoals} (
-                                    {player.goalPercentage.toFixed(2)}%)
+                                <td className="md:p-2 ">
+                                    {player.totalGoals}
+                                    <span className="text-xs flex">
+                                        ({player.goalPercentage.toFixed(2)}%)
+                                    </span>
                                 </td>
                                 <td className="md:p-2">
                                     {player.matchesPlayed}
