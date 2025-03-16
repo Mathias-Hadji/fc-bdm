@@ -144,7 +144,7 @@ const PlayerRanking: React.FC = () => {
                                 >
                                     {player.name}
                                 </td>
-                                <td className="md:p-2">
+                                <td className="md:p-2 py-1">
                                     {player.totalGoals} (
                                     {player.goalPercentage.toFixed(2)}%)
                                 </td>
