@@ -69,7 +69,7 @@ const PlayerRanking: React.FC = () => {
     };
 
     return (
-        <div className="p-1 md:p-6 mb-14">
+        <div className="p-1 md:p-6 mb-14 text-sm md:text-base">
             <h1 className="text-xl md:text-4xl font-bold mb-4 flex items-center gap-4">
                 <Image
                     src="/bayern-de-monique-logo.png"
@@ -133,21 +133,25 @@ const PlayerRanking: React.FC = () => {
                                 key={player.rank}
                                 className="border-t border-gray-700 text-center hover:bg-gray-700 transition"
                             >
-                                <td className="p-2 flex justify-center items-center gap-1">
-                                    {getMedal(player.rank)} {player.rank}
+                                <td className="p-2 flex justify-center items-center gap-1 whitespace-nowrap">
+                                    <span>{getMedal(player.rank)}</span>
+                                    <span>{player.rank}</span>
                                 </td>
+
                                 <td
-                                    className="p-2 font-bold text-slate-300 cursor-pointer hover:underline"
+                                    className="p-2 font-bold text-slate-300 cursor-pointer hover:underline whitespace-nowrap"
                                     onClick={() => setSelectedPlayer(player)}
                                 >
                                     {player.name}
                                 </td>
-                                <td className="p-2">
+                                <td className="md:p-2">
                                     {player.totalGoals} (
                                     {player.goalPercentage.toFixed(2)}%)
                                 </td>
-                                <td className="p-2">{player.matchesPlayed}</td>
-                                <td className="p-2">
+                                <td className="md:p-2">
+                                    {player.matchesPlayed}
+                                </td>
+                                <td className="md:p-2">
                                     {player.goalsPerMatch.toFixed(2)}
                                 </td>
                             </tr>
