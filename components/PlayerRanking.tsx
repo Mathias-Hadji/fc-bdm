@@ -93,7 +93,7 @@ const PlayerRanking: React.FC = () => {
                 className="w-full mb-4 p-2 border border-gray-600 rounded bg-gray-800 text-white"
             />
 
-            <table className="min-w-full bg-gray-800 text-white border border-gray-700">
+            <table className="min-w-full bg-gray-800 text-white border border-gray-700 mb-10">
                 <thead>
                     <tr className="bg-gray-900">
                         {[
