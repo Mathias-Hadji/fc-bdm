@@ -70,7 +70,7 @@ const PlayerRanking: React.FC = () => {
 
     return (
         <div className="p-1 md:p-6 mb-14 text-sm md:text-base">
-            <h1 className="text-xl md:text-4xl font-bold mb-4 flex items-center gap-4">
+            <h1 className="text-xl text-slate-100 md:text-4xl font-bold mb-4 flex items-center gap-4">
                 <Image
                     src="/bayern-de-monique-logo.png"
                     alt="Logo Bayern de Monique"
@@ -81,7 +81,7 @@ const PlayerRanking: React.FC = () => {
                 <span>FC Bayern de Monique</span>
             </h1>
 
-            <h2 className="text-xl text-center md:text-left md:text-2xl font-bold mb-4">
+            <h2 className="text-slate-100 text-xl text-center md:text-left md:text-2xl font-bold mb-4">
                 Classement des joueurs - Championnat FSGT 2024-2025
             </h2>
 
